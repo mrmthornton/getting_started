@@ -1,15 +1,11 @@
-
-
-var msg = 'Hello World';
-
-console.log(msg);
+var msg = 'Rise and Shine, Contractors!';
 
 function greetEveryone() {
     console.log(greet());
 }
 
 function greet() {
-    return 'Rise and Shine, Contractors!';
+    return msg;
 }
 
 greetEveryone();
