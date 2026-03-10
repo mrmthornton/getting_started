@@ -1,11 +1,9 @@
-var msg = 'Rise and Shine, Contractors!';
-
 function greetEveryone() {
-    console.log(greet());
+    console.log(greeting());
 }
 
-function greet() {
-    return msg;
+function greeting() {
+    return 'Rise and Shine, Contractors!';
 }
 
 greetEveryone();
